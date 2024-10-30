@@ -26,7 +26,6 @@ jobs:
       # Runs a set of commands using the runners shell
       
       - name: Bicep Lint Script
-        if: ${{hashFiles('bicep/' != '')}}
         uses: azure/cli@v2
         with:
           azcliversion: latest
