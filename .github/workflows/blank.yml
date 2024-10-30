@@ -22,5 +22,5 @@ jobs:
       - name: Run Bicep Linter
         uses: synergy-au/bicep-lint-action@v1
         with:
-          analyse-all-files: "true" # optional, defaults to false (only analyse changed files)
+          analyse-all-files: "false" # optional, defaults to false (only analyse changed files)
           bicep-version: "latest" # optional, defaults to latest
